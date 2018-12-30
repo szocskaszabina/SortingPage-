@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 3px
+}
+
+
+.card {
+    max-width: 30%;
+    background-color: cornflowerblue;
+    margin: 3px
+}
+
+.card-img-top {
+    max-width: 100%;
+    background-color: cornflowerblue
+}
+
+.card-body {
+    max-width: 100%;
+}
+
+#list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
